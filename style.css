@@ -1,0 +1,71 @@
+:root {
+  --primary: #c8102e;
+  --dark: #1a1a1a;
+  --light: #f4f4f4;
+  --text: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  background: var(--dark);
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: var(--light);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+}
+
+section {
+  padding: 2.5rem 2rem;
+}
+
+article {
+  max-width: 800px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 400px;
+}
