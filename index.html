@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Georgia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Discover Georgia</h1>
+      <ul>
+        <li><a href="#geography">Geography</a></li>
+        <li><a href="#culture">Culture</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <h2 id="hero-heading">The Crossroads of Europe and Asia</h2>
+      <p>Discover the landscapes, traditions, and history of Georgia.</p>
+      <button id="highlight-btn">Explore Culture</button>
+    </section>
+
+    <section id="geography" aria-labelledby="geo-heading">
+      <h2 id="geo-heading">Geography</h2>
+      <article>
+        <p>
+          Georgia is located at the intersection of Eastern Europe and Western Asia,
+          bordered by the Black Sea, Russia, Turkey, Armenia, and Azerbaijan.
+        </p>
+      </article>
+    </section>
+
+    <section id="culture" aria-labelledby="culture-heading">
+      <h2 id="culture-heading">Culture</h2>
+      <img
+        src="images/amazing-georgian-traditional-dance-c5c4c8159102cee2d860f369e3ccdcd4.jpg"
+        alt="Traditional Georgian dancers performing in national dress"
+      />
+      <article>
+        <p>
+          Georgian culture is known for its hospitality, folk music,
+          unique alphabet, and one of the oldest wine-making traditions in the world.
+        </p>
+      </article>
+    </section>
+
+    <section id="history" aria-labelledby="history-heading">
+      <h2 id="history-heading">History</h2>
+      <article>
+        <p>
+          Georgia has a recorded history spanning more than 3,000 years and has
+          maintained a strong national identity despite periods of foreign rule.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Learn More</h2>
+
+      <form id="contact-form">
+        <label for="email">Email address</label>
+        <input id="email" type="email" required />
+
+        <label for="message">Your question</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p id="form-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Discover Georgia</p>
+  </footer>
+
+</body>
+</html>
